@@ -2,4 +2,4 @@
 
 Здесь собраны переведенные и известные тексты. Некоторые были прочитаны на практическом занятии, некоторые дома
 
-- [[Переведенные и известные нам тексты/History of St Petersburg University/index|History of St Petersburg University]]  
+- [[Переведенные и известные тексты/History of St Petersburg University/index|History of St Petersburg University]]  

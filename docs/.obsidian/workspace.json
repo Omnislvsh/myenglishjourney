@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Active Vocabulary/Verbs/to claim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "to claim"
             }
           }
         ]
@@ -190,14 +190,15 @@
   },
   "active": "1f3616086d1d4a27",
   "lastOpenFiles": [
-    "Progress.md",
-    "index.md",
-    "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
-    "Переведенные и известные нам тексты/History of St Petersburg University/index.md",
-    "Переведенные и известные нам тексты/index.md",
-    "Active Vocabulary/Nouns/index.md",
-    "Active Vocabulary/index.md",
     "Active Vocabulary/Verbs/index.md",
+    "Active Vocabulary/Nouns/index.md",
+    "Active Vocabulary/Adjectives/index.md",
+    "Переведенные и известные тексты/index.md",
+    "Active Vocabulary/index.md",
+    "index.md",
+    "Progress.md",
+    "Переведенные и известные тексты/History of St Petersburg University/Вопросы к тексту.md",
+    "Переведенные и известные тексты/History of St Petersburg University/index.md",
     "assets/logo.png",
     "assets/icon-512.png",
     "assets/icon-192.png",
@@ -205,16 +206,15 @@
     "assets/favicon.ico",
     "assets/favicon.png",
     "assets",
-    "Active Vocabulary/Adjectives/index.md",
     "Active Vocabulary/Nounss",
-    "Переведенные и известные нам тексты",
+    "Переведенные и известные тексты",
     "Active Vocabulary/Adjectives/Без названия.md",
     "stylesheets/extra.css",
     "stylesheets",
     "docs/stylesheets/extra.css",
     "docs/stylesheets",
     "docs",
-    "Переведенные и известные нам тексты/History of St Petersburg University",
+    "Переведенные и известные тексты/History of St Petersburg University",
     "Active Vocabulary/Переведенные и известные тексты/Вопросы к тексту.md",
     "Active Vocabulary/Переведенные и известные тексты/History of St Petersburg University.md",
     "Verbs/index.md",
