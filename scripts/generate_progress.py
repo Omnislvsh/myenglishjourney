@@ -42,8 +42,7 @@ def git_added_files() -> list[tuple[date, str]]:
             "--date=short",
             "--name-only",
             "--",
-            "docs/*.md",
-            "docs/**/*.md",
+            "docs",
         ],
         cwd=ROOT,
         capture_output=True,
@@ -69,7 +68,11 @@ def git_added_files() -> list[tuple[date, str]]:
         except ValueError:
             pass
 
-        if current_date and line.endswith(".md"):
+        if (
+            current_date
+            and line.endswith(".md")
+            and line != "docs/Progress.md"
+        ):
             additions.append((current_date, line))
 
     return additions
@@ -83,9 +86,9 @@ def calculate_streak(active_days: set[date]) -> int:
 
     today = date.today()
 
-    # If there was no activity today, allow the streak to end yesterday.
+    # If there was no activity today, continue from yesterday.
     if today not in active_days:
-        today = today - timedelta(days=1)
+        today -= timedelta(days=1)
 
     streak = 0
     current = today
@@ -179,10 +182,8 @@ def generate_progress(stats: dict) -> str:
         lines.append("No activity yet.")
     else:
         for item in activity:
-            bar_length = (
-                round(item["count"] / max_count * 20)
-                if max_count
-                else 0
+            bar_length = round(
+                item["count"] / max_count * 20
             )
 
             bar = "█" * bar_length
