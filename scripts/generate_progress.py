@@ -16,7 +16,7 @@ PROGRESS_FILE = DOCS / "Progress.md"
 # ---------------------------------------------------------------------------
 
 def count_md(directory: Path) -> int:
-    """Count markdown files recursively in a directory."""
+    """Count markdown files recursively, excluding index.md files."""
     if not directory.exists():
         return 0
 
@@ -24,9 +24,9 @@ def count_md(directory: Path) -> int:
         1
         for path in directory.rglob("*.md")
         if path.is_file()
+        and path.name.lower() != "index.md"
     )
-
-
+    
 def git_added_files() -> list[tuple[date, str]]:
     """
     Return all markdown files that were added to the repository,
@@ -67,17 +67,14 @@ def git_added_files() -> list[tuple[date, str]]:
             continue
         except ValueError:
             pass
-
         if (
             current_date
             and line.endswith(".md")
+            and not line.endswith("/index.md")
             and line != "docs/Progress.md"
         ):
             additions.append((current_date, line))
-
     return additions
-
-
 def calculate_streak(active_days: set[date]) -> int:
     """Calculate the current consecutive-day streak."""
 
