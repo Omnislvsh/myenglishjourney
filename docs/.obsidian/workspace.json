@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progress.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Progress"
+              "title": "index"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "1f3616086d1d4a27",
   "lastOpenFiles": [
-    "index.md",
     "Progress.md",
+    "index.md",
     "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
     "Переведенные и известные нам тексты/History of St Petersburg University/index.md",
     "Переведенные и известные нам тексты/index.md",

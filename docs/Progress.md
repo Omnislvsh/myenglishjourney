@@ -2,12 +2,12 @@
 
 ## Vocabulary
 
-| Category | Words |
-| --- | ---: |
-| Verbs | 15 |
-| Nouns | 0 |
-| Adjectives | 0 |
-| **Total** | **15** |
+| Category   |  Words |
+| ---------- | -----: |
+| Verbs      |     15 |
+| Nouns      |      0 |
+| Adjectives |      0 |
+| **Total**  | **15** |
 
 ## Activity
 
