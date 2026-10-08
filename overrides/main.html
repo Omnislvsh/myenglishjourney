@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <!-- Для современных ПК -->
+  <link rel="icon" href="{{ base_url }}/assets/favicon.svg" type="image/svg+xml">
+  
+  <!-- Для Apple (iOS) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_url }}/assets/apple-touch-icon.png">
+  
+  <!-- Для Android (вместо манифеста) -->
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ base_url }}/assets/icon-192.png">
+{% endblock %}
+
+{% block footer %}
+<footer class="md-footer">
+  {% set prev = page.previous_page %}
+  {% set next = page.next_page %}
+  {% if prev and prev.parent != page.parent %}{% set prev = none %}{% endif %}
+  {% if next and next.parent != page.parent %}{% set next = none %}{% endif %}
+
+  {% if prev or next %}
+  <nav class="md-footer__inner md-grid" aria-label="Footer">
+    {% if prev %}
+    <a href="{{ prev.url | url }}" class="md-footer__link md-footer__link--prev">
+      <div class="md-footer__button md-icon">
+        {% include ".icons/material/arrow-left.svg" %}
+      </div>
+      <div class="md-footer__title">
+        <span class="md-footer__direction">Назад</span>
+        <div class="md-ellipsis">{{ prev.title }}</div>
+      </div>
+    </a>
+    {% endif %}
+    {% if next %}
+    <a href="{{ next.url | url }}" class="md-footer__link md-footer__link--next">
+      <div class="md-footer__title">
+        <span class="md-footer__direction">Далее</span>
+        <div class="md-ellipsis">{{ next.title }}</div>
+      </div>
+      <div class="md-footer__button md-icon">
+        {% include ".icons/material/arrow-right.svg" %}
+      </div>
+    </a>
+    {% endif %}
+  </nav>
+  {% endif %}
+
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      {% include "partials/copyright.html" %}
+      {% include "partials/social.html" %}
+    </div>
+  </div>
+</footer>
+{% endblock %}

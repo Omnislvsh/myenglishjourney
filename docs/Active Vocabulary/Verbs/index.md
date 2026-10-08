@@ -1,0 +1,15 @@
+# Verbs
+- [[to account]]
+- [[to accustom]]
+- [[to acquire]]
+- [[to avoid]]
+- [[to claim]]
+- [[to communicate]]
+- [[to contribute]]
+- [[to deal with]]
+- [[to denote]]
+- [[to determine]]
+- [[to distinguish]]
+- [[to elaborate]]
+- [[to evaluate]] 
+

@@ -1,0 +1,39 @@
+site_name: My English Journey
+site_url: https://omnislvsh.github.io/myenglishjourney/
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  language: ru
+  palette:
+    - scheme: default
+      toggle: {icon: material/weather-night, name: Тёмная тема}
+    - scheme: slate
+      toggle: {icon: material/weather-sunny, name: Светлая тема}
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - toc.follow
+plugins:
+  - search
+  - roamlinks
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+copyright: 'Связаться со мной: <a href="mailto:fedmax012@gmail.com">fedmax012@gmail.com</a>'
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/omnislvsh
+      name: Telegram
+    - icon: fontawesome/brands/github
+      link: https://github.com/Omnislvsh
+      name: GitHub
+    - icon: fontawesome/solid/envelope
+      link: https://e.mail.ru/compose/?octavius-snr=1
+      name: Почта
