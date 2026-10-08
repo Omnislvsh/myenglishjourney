@@ -27,7 +27,7 @@ jobs:
         run: python scripts/generate_progress.py
 
       - name: Install MkDocs
-        run: pip install mkdocs-material
+        run: pip install mkdocs-material mkdocs-roamlinks-plugin
 
       - name: Build site
         run: mkdocs build
