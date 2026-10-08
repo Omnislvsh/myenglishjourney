@@ -10,11 +10,6 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 PROGRESS_FILE = DOCS / "Progress.md"
 
-
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
 def count_md(directory: Path) -> int:
     """Count markdown files recursively, excluding index.md files."""
     if not directory.exists():
@@ -97,10 +92,6 @@ def calculate_streak(active_days: set[date]) -> int:
     return streak
 
 
-# ---------------------------------------------------------------------------
-# Statistics
-# ---------------------------------------------------------------------------
-
 def build_statistics() -> dict:
     vocabulary = {
         "Verbs": count_md(DOCS / "Active Vocabulary" / "Verbs"),
@@ -141,11 +132,6 @@ def build_statistics() -> dict:
         "streak": streak,
         "total_added": len(additions),
     }
-
-
-# ---------------------------------------------------------------------------
-# Markdown generation
-# ---------------------------------------------------------------------------
 
 def generate_progress(stats: dict) -> str:
     vocabulary = stats["vocabulary"]

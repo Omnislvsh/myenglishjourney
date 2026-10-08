@@ -26,6 +26,7 @@ markdown_extensions:
   - admonition
   - tables
   - attr_list
+  
 copyright: 'Связаться со мной: <a href="mailto:fedmax012@gmail.com">fedmax012@gmail.com</a>'
 
 extra:
