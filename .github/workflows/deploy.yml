@@ -1,0 +1,2 @@
+- name: Generate progress
+  run: python scripts/generate_progress.py

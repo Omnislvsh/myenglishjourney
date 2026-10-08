@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
+                "file": "Progress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Вопросы к тексту"
+              "title": "Progress"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
+                "file": "Progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
+                "file": "Progress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
+                "file": "Progress.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,11 +190,12 @@
   },
   "active": "1f3616086d1d4a27",
   "lastOpenFiles": [
-    "Переведенные и известные нам тексты/History of St Petersburg University/index.md",
+    "index.md",
+    "Progress.md",
     "Переведенные и известные нам тексты/History of St Petersburg University/Вопросы к тексту.md",
+    "Переведенные и известные нам тексты/History of St Petersburg University/index.md",
     "Переведенные и известные нам тексты/index.md",
     "Active Vocabulary/Nouns/index.md",
-    "index.md",
     "Active Vocabulary/index.md",
     "Active Vocabulary/Verbs/index.md",
     "assets/logo.png",
