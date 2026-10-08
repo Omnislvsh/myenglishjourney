@@ -12,6 +12,8 @@ theme:
     - scheme: slate
       toggle: {icon: material/weather-sunny, name: Светлая тема}
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.sections
     - navigation.top
     - navigation.indexes
