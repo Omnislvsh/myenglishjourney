@@ -14,6 +14,8 @@ PROGRESS_FILE = DOCS / "Progress.md"
 # CI работает в UTC, поэтому "сегодня" считаем в часовом поясе автора.
 TIMEZONE = ZoneInfo("Europe/Moscow")
 COMMIT_MARKER = "@@COMMIT@@"
+# В активность и общий счётчик попадают только заметки словаря.
+VOCABULARY_PREFIX = "docs/Active Vocabulary/"
 
 
 def today() -> date:
@@ -77,9 +79,9 @@ def git_added_files() -> list[tuple[date, str]]:
 
         if (
             current_date
+            and line.startswith(VOCABULARY_PREFIX)
             and line.endswith(".md")
             and not line.endswith("/index.md")
-            and line != "docs/Progress.md"
         ):
             # git log идёт от новых коммитов к старым, поэтому перезапись
             # оставляет самую раннюю дату (файл мог быть удалён и добавлен снова).
@@ -169,7 +171,7 @@ def generate_progress(stats: dict) -> str:
         "",
         "## Activity",
         "",
-        "New Markdown files added per day during the last 30 days.",
+        "New vocabulary notes added per day during the last 30 days.",
         "",
         "```text",
     ]
@@ -205,7 +207,7 @@ def generate_progress(stats: dict) -> str:
             "",
             "## Overall",
             "",
-            f"Markdown files added: **{stats['total_added']}**",
+            f"Vocabulary notes added: **{stats['total_added']}**",
             "",
         ]
     )

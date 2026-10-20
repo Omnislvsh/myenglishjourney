@@ -11,7 +11,7 @@
 
 ## Activity
 
-New Markdown files added per day during the last 30 days.
+New vocabulary notes added per day during the last 30 days.
 
 ```text
 21 Sep                      0
@@ -31,7 +31,7 @@ New Markdown files added per day during the last 30 days.
 05 Oct                      0
 06 Oct                      0
 07 Oct                      0
-08 Oct ████████████████████ 16
+08 Oct ████████████████████ 15
 09 Oct                      0
 10 Oct                      0
 11 Oct                      0
@@ -43,7 +43,7 @@ New Markdown files added per day during the last 30 days.
 17 Oct                      0
 18 Oct                      0
 19 Oct                      0
-20 Oct ███████████████████  15
+20 Oct ████████████████████ 15
 ```
 
 ## Streak
@@ -52,4 +52,4 @@ Current streak: **1 days**
 
 ## Overall
 
-Markdown files added: **31**
+Vocabulary notes added: **30**
