@@ -8,11 +8,19 @@ publish: "true"
 ---
 # to deal with
 
-**Перевод:** иметь дело с; рассматривать (о теме статьи, главы); справляться с (проблемой)
+!!! info vocab "Перевод"
+    1. рассматривать, излагать (о теме работы, главы: *this chapter deals with*)
+    2. справляться, разбираться (с трудностью, случаем, особенностью)
+    3. иметь дело с (объектом, классом объектов)
 
-**Конструкции:** deal with + проблема / случай / трудность; this chapter deals with + тема; be dealt with in + раздел (о теме: "is dealt with in Chapter 4"); deal effectively / successfully with
+!!! tip vocab "Конструкции"
+    - this paper / chapter deals with + тема
+    - deal with + проблема / случай / трудность
+    - be dealt with in + раздел
 
-## Пример
-To deal with the singularity at the origin, we introduce a new variable.
+!!! example vocab "Пример"
+    To deal with the singularity at the origin, we introduce a new variable.
+    { .sentence }
 
-**Перевод примера:** Чтобы справиться с особенностью в начале координат, мы вводим новую переменную.
+    Чтобы справиться с особенностью в начале координат, мы вводим новую переменную.
+    { .translation }

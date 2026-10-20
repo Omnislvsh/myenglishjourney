@@ -2,14 +2,25 @@
 
 {% block extrahead %}
   {{ super() }}
-  <!-- Для современных ПК -->
-  <link rel="icon" href="{{ base_url }}/assets/favicon.ico" type="image/svg+xml">
-  
-  <!-- Для Apple (iOS) -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_url }}/assets/apple-touch-icon.png">
-  
-  <!-- Для Android (вместо манифеста) -->
   <link rel="icon" type="image/png" sizes="192x192" href="{{ base_url }}/assets/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ base_url }}/assets/icon-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_url }}/assets/apple-touch-icon.png">
+{% endblock %}
+
+{% block content %}
+  {% if page.meta and page.meta.type == "verb" %}
+    {% set prev = page.previous_page %}
+    {% set next = page.next_page %}
+    {% if prev and prev.parent != page.parent %}{% set prev = none %}{% endif %}
+    {% if next and next.parent != page.parent %}{% set next = none %}{% endif %}
+    <nav class="word-nav" aria-label="Соседние слова">
+      {% if prev %}<a class="word-nav__link" href="{{ prev.url | url }}">← {{ prev.title }}</a>{% else %}<span></span>{% endif %}
+      {% set list_page = page.parent.children | selectattr("is_index") | first if page.parent else none %}
+      {% if list_page %}<a class="word-nav__list" href="{{ list_page.url | url }}">Все слова</a>{% else %}<span></span>{% endif %}
+      {% if next %}<a class="word-nav__link" href="{{ next.url | url }}">{{ next.title }} →</a>{% else %}<span></span>{% endif %}
+    </nav>
+  {% endif %}
+  {{ super() }}
 {% endblock %}
 
 {% block footer %}

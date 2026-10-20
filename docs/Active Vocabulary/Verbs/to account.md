@@ -7,11 +7,20 @@ tags:
 publish: "true"
 ---
 # to account
-**Перевод:** объяснять, служить причиной (to account for); составлять долю (to account for 10%)
 
-**Конструкции:** account for + что-то (объяснять; составлять долю); be accounted for by + что-то; take into account / take account of — учитывать (близкое, но другое выражение)
+!!! info vocab "Перевод"
+    1. объяснять, служить причиной (*account for a phenomenon / a fact*)
+    2. составлять долю, приходиться на (*account for 10% of the error*)
+    3. учитывать, принимать во внимание (*take into account*)
 
-## Пример
-Our first task is to account for the unexpected behaviour of the numerical method. The standard theory cannot account for the fact that the error grows after step fifty.
+!!! tip vocab "Конструкции"
+    - account for + что-то — объяснять; составлять долю
+    - be accounted for by + что-то — объясняться чем-то
+    - take into account / take account of + что-то — учитывать (близкое, но другое выражение)
 
-**Перевод примера:** Наша первая задача — объяснить неожиданное поведение численного метода. Стандартная теория не может объяснить тот факт, что после пятидесятого шага ошибка растёт.
+!!! example vocab "Пример"
+    Our first task is to account for the unexpected behaviour of the numerical method. The standard theory cannot account for the fact that the error grows after step fifty.
+    { .sentence }
+
+    Наша первая задача — объяснить неожиданное поведение численного метода. Стандартная теория не может объяснить тот факт, что после пятидесятого шага ошибка растёт.
+    { .translation }

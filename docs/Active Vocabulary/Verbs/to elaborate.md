@@ -8,14 +8,21 @@ publish: "true"
 ---
 # to elaborate
 
-**Перевод:** подробно излагать, развивать (мысль); тщательно разрабатывать
-1. излагать подробнее то, что уже сказано (elaborate on) 
-2. тщательно разрабатывать теорию или метод 
-3. прилагательное elaborate [ɪˈlæbərət] — сложный, детально проработанный (глагол читается [ɪˈlæbəreɪt])
+!!! info vocab "Перевод"
+    1. подробно излагать, пояснять (*elaborate on*)
+    2. тщательно разрабатывать (теорию, метод)
+    3. уточнять, вдаваться в детали
 
-**Конструкции:** elaborate on / upon + существительное; elaborate a theory / a method; be elaborated in + раздел; would you care to elaborate? — не могли бы вы пояснить?; an elaborate proof / construction; without elaborating — не вдаваясь в подробности
+    Произношение: глагол [ɪˈlæbəreɪt], прилагательное elaborate [ɪˈlæbərət] — сложный, детально проработанный.
 
-## Пример
-The author does not elaborate on why the second assumption is necessary.
+!!! tip vocab "Конструкции"
+    - elaborate on / upon + существительное
+    - elaborate a theory / a method
+    - be elaborated in + раздел
 
-**Перевод примера:** Автор не объясняет подробно, почему необходимо второе предположение.
+!!! example vocab "Пример"
+    The author does not elaborate on why the second assumption is necessary.
+    { .sentence }
+
+    Автор не объясняет подробно, почему необходимо второе предположение.
+    { .translation }

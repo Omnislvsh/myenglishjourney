@@ -6,13 +6,21 @@ tags:
   - слово
 publish: "true"
 ---
-# to avoid 
+# to avoid
 
-**Перевод:** избегать
+!!! info vocab "Перевод"
+    1. избегать, не допускать (*avoid confusion*, *avoid an error*)
+    2. обходить, не рассматривать (трудность, особый случай: *avoid a singularity*)
+    3. исключать (из рассмотрения, из уравнения, из системы)
 
-**Конструкции:** avoid + существительное; avoid + -ing (не "avoid to do"!); narrowly avoid + что-то; avoid the question / the issue; in order to avoid confusion; avoidance (сущ.), unavoidable (прил.)
+!!! tip vocab "Конструкции"
+    - avoid + существительное
+    - avoid + -ing (не "avoid to do"!)
+    - in order to avoid + существительное — чтобы избежать...
 
-## Пример
-In order to avoid confusion, we denote the two functions by different letters.
+!!! example vocab "Пример"
+    In order to avoid confusion, we denote the two functions by different letters.
+    { .sentence }
 
-**Перевод примера:** Чтобы избежать путаницы, мы обозначаем две функции разными буквами.
+    Чтобы избежать путаницы, мы обозначаем две функции разными буквами.
+    { .translation }

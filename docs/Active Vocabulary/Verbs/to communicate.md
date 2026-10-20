@@ -8,11 +8,19 @@ publish: "true"
 ---
 # to communicate
 
-**Перевод:** передавать (идею, результат), сообщать; общаться
+!!! info vocab "Перевод"
+    1. передавать, сообщать (идею, результат: *communicate something to someone*)
+    2. общаться, поддерживать связь (*communicate with*)
+    3. передавать (в физике: теплоту, движение); сообщаться (о сосудах, областях)
 
-**Конструкции:** communicate with + кем; communicate something to + кому; communicate an idea / a result / a decision; communicate effectively; communication — общение, передача информации
+!!! tip vocab "Конструкции"
+    - communicate something to + кому
+    - communicate with + кем
+    - communicate an idea / a result / a decision
 
-## Пример
-To communicate with specialists from other fields, we avoid unnecessary jargon.
+!!! example vocab "Пример"
+    To communicate with specialists from other fields, we avoid unnecessary jargon.
+    { .sentence }
 
-**Перевод примера:** Чтобы общаться со специалистами из других областей, мы избегаем лишнего жаргона.
+    Чтобы общаться со специалистами из других областей, мы избегаем лишнего жаргона.
+    { .translation }

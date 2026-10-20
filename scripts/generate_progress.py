@@ -11,10 +11,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 PROGRESS_FILE = DOCS / "Progress.md"
 
-# CI работает в UTC, поэтому "сегодня" считаем в часовом поясе автора.
 TIMEZONE = ZoneInfo("Europe/Moscow")
 COMMIT_MARKER = "@@COMMIT@@"
-# В активность и общий счётчик попадают только заметки словаря.
 VOCABULARY_PREFIX = "docs/Active Vocabulary/"
 
 
@@ -23,7 +21,6 @@ def today() -> date:
 
 
 def count_md(directory: Path) -> int:
-    """Count markdown files recursively, excluding index.md files."""
     if not directory.exists():
         return 0
 
@@ -36,15 +33,9 @@ def count_md(directory: Path) -> int:
 
 
 def git_added_files() -> list[tuple[date, str]]:
-    """
-    Return markdown files added to the repository, each with the date of
-    the commit that first added it.
-    """
-
     result = subprocess.run(
         [
             "git",
-            # Без этого кириллические имена приходят в кавычках с \-escape.
             "-c",
             "core.quotepath=false",
             "log",
@@ -83,22 +74,17 @@ def git_added_files() -> list[tuple[date, str]]:
             and line.endswith(".md")
             and not line.endswith("/index.md")
         ):
-            # git log идёт от новых коммитов к старым, поэтому перезапись
-            # оставляет самую раннюю дату (файл мог быть удалён и добавлен снова).
             first_added[line] = current_date
 
     return [(added, path) for path, added in first_added.items()]
 
 
 def calculate_streak(active_days: set[date]) -> int:
-    """Calculate the current consecutive-day streak."""
-
     if not active_days:
         return 0
 
     current = today()
 
-    # If there was no activity today, continue from yesterday.
     if current not in active_days:
         current -= timedelta(days=1)
 
@@ -153,64 +139,100 @@ def build_statistics() -> dict:
     }
 
 
+def plural_days(n: int) -> str:
+    if n % 100 in range(11, 15):
+        return f"{n} дней"
+    return f"{n} " + {1: "день", 2: "дня", 3: "дня", 4: "дня"}.get(n % 10, "дней")
+
+
+def stat_card(value: str, label: str) -> str:
+    return (
+        '<div class="stat">'
+        f'<span class="stat__value">{value}</span>'
+        f'<span class="stat__label">{label}</span>'
+        "</div>"
+    )
+
+
+def vocabulary_bar(name: str, count: int, total: int) -> str:
+    width = round(count / total * 100) if total else 0
+    return (
+        '<div class="bar">'
+        f'<div class="bar__head"><span>{name}</span><span>{count}</span></div>'
+        '<div class="bar__track">'
+        f'<div class="bar__fill" style="width:{width}%"></div>'
+        "</div></div>"
+    )
+
+
+def activity_level(count: int, max_count: int) -> int:
+    if count == 0 or max_count == 0:
+        return 0
+    return max(1, min(4, -(-count * 4 // max_count)))
+
+
+def heatmap(activity: list[dict]) -> str:
+    max_count = max((item["count"] for item in activity), default=0)
+    lead = activity[0]["date"].weekday()
+
+    cells = ['<i class="cell cell--empty"></i>'] * lead
+    for item in activity:
+        count = item["count"]
+        level = activity_level(count, max_count)
+        label = f"{item['date'].strftime('%d.%m.%Y')}: {count}"
+        cells.append(f'<i class="cell cell--l{level}" title="{label}"></i>')
+
+    weekdays = ["Пн", "", "Ср", "", "Пт", "", ""]
+    day_labels = "".join(f"<span>{d}</span>" for d in weekdays)
+    legend = "".join(f'<i class="cell cell--l{level}"></i>' for level in range(5))
+
+    return (
+        '<div class="heatmap-wrap">'
+        f'<div class="heatmap-days">{day_labels}</div>'
+        f'<div class="heatmap">{"".join(cells)}</div>'
+        "</div>"
+        f'<div class="heatmap-legend"><span>меньше</span>{legend}<span>больше</span></div>'
+    )
+
+
 def generate_progress(stats: dict) -> str:
     vocabulary = stats["vocabulary"]
     activity = stats["activity"]
+    total = vocabulary["Total"]
+
+    month_total = sum(item["count"] for item in activity)
+    active_days = sum(1 for item in activity if item["count"])
+
+    cards = "".join(
+        [
+            stat_card(str(total), "слов в словаре"),
+            stat_card(plural_days(stats["streak"]), "подряд"),
+            stat_card(str(month_total), "новых слов за 30 дней"),
+            stat_card(str(active_days), "активных дней из 30"),
+        ]
+    )
+
+    bars = "".join(
+        vocabulary_bar(name, vocabulary[name], total)
+        for name in ("Verbs", "Nouns", "Adjectives")
+    )
 
     lines = [
         "# Progress",
         "",
-        "## Vocabulary",
+        f'<div class="stats">{cards}</div>',
         "",
-        "| Category | Words |",
-        "| --- | ---: |",
-        f"| Verbs | {vocabulary['Verbs']} |",
-        f"| Nouns | {vocabulary['Nouns']} |",
-        f"| Adjectives | {vocabulary['Adjectives']} |",
-        f"| **Total** | **{vocabulary['Total']}** |",
+        "## Словарь",
         "",
-        "## Activity",
+        f'<div class="bars">{bars}</div>',
         "",
-        "New vocabulary notes added per day during the last 30 days.",
+        "## Активность",
         "",
-        "```text",
+        "Новые заметки словаря по дням за последние 30 дней.",
+        "",
+        heatmap(activity),
+        "",
     ]
-
-    max_count = max(
-        (item["count"] for item in activity),
-        default=0,
-    )
-
-    if max_count == 0:
-        lines.append("No activity yet.")
-    else:
-        for item in activity:
-            bar_length = round(
-                item["count"] / max_count * 20
-            )
-
-            bar = "█" * bar_length
-
-            lines.append(
-                f"{item['date'].strftime('%d %b')} "
-                f"{bar:<20} "
-                f"{item['count']}"
-            )
-
-    lines.extend(
-        [
-            "```",
-            "",
-            "## Streak",
-            "",
-            f"Current streak: **{stats['streak']} days**",
-            "",
-            "## Overall",
-            "",
-            f"Vocabulary notes added: **{stats['total_added']}**",
-            "",
-        ]
-    )
 
     return "\n".join(lines)
 

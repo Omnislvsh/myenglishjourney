@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to wonder
 
-**Перевод и академические значения:**
-1. Задаваться вопросом (о поведении системы, решении: *one may wonder whether...*).
-2. Ставить открытый вопрос (в обсуждении результатов статьи).
-3. Удивляться (*wonder at something*).
+!!! info vocab "Перевод"
+    1. задаваться вопросом, интересоваться (*one may wonder whether...*)
+    2. удивляться, поражаться (*wonder at*)
+    3. сомневаться, гадать
 
-**Конструкции:** wonder if / whether + предложение; wonder + who / what / how / why; wonder about + существительное; wonder at + существительное — удивляться; one may wonder whether...; I was wondering if... — вежливая просьба
+!!! tip vocab "Конструкции"
+    - wonder if / whether + предложение
+    - wonder + who / what / how / why
+    - wonder at / about + существительное
 
-## Пример
-The reader may wonder whether this numerical method also works well for problems with discontinuous boundary conditions.
+!!! example vocab "Пример"
+    The reader may wonder whether this numerical method also works well for problems with discontinuous boundary conditions.
+    { .sentence }
 
-**Перевод примера:** Читатель может задаться вопросом, хорошо ли работает этот численный метод также и для задач с разрывными граничными условиями.
+    Читатель может задаться вопросом, хорошо ли работает этот численный метод также и для задач с разрывными граничными условиями.
+    { .translation }

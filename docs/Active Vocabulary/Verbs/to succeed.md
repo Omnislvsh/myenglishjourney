@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to succeed
 
-**Перевод и академические значения:**
-1. Достигать цели, удаваться (*succeed in doing*; о методе или схеме — давать нужный результат).
-2. Успешно решать (задачу, систему уравнений).
-3. Следовать за, сменять (в последовательностях, шагах по времени).
+!!! info vocab "Перевод"
+    1. удаваться, успешно выполнять (*succeed in doing*)
+    2. следовать за, идти после (в последовательности, порядке)
+    3. преуспевать, сменять (*succeed as*, *succeed somebody as*)
 
-**Конструкции:** succeed in + -ing (не "succeed to do"); succeed as + роль; succeed somebody as + должность; succeed + существительное (следовать за); success / successful — успех / успешный; successive — последовательный
+!!! tip vocab "Конструкции"
+    - succeed in + -ing (не "succeed to do")
+    - succeed + существительное — следовать за чем-то
+    - succeed somebody as + должность
 
-## Пример
-The proposed algorithm succeeds in computing the eigenvalues of the stiffness matrix without any loss of accuracy.
+!!! example vocab "Пример"
+    The proposed algorithm succeeds in computing the eigenvalues of the stiffness matrix without any loss of accuracy.
+    { .sentence }
 
-**Перевод примера:** Предложенный алгоритм успешно вычисляет собственные значения матрицы жесткости без какой-либо потери точности.
+    Предложенный алгоритм успешно вычисляет собственные значения матрицы жесткости без какой-либо потери точности.
+    { .translation }

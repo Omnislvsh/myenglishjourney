@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to imply
 
-**Перевод и академические значения:**
-1. Влечь за собой, логически следовать (в логике, доказательствах и выводах: $A \implies B$).
-2. Означать, предполагать по определению (о свойствах математического объекта или системы).
-3. Предполагать наличие, требовать существования (о свойстве, условии: *the model implies that the material is isotropic*).
+!!! info vocab "Перевод"
+    1. влечь за собой, следовать (*A implies B*, A ⇒ B)
+    2. подразумевать, означать (по определению, неявно)
+    3. свидетельствовать о, указывать на (*the result implies that*)
 
-**Конструкции:** imply (that) + предложение; imply + существительное; A implies B (A ⇒ B); be implied — подразумеваться; an implied condition; implication (сущ.) — следствие, подтекст; imply ≠ infer: imply — подразумевать, infer — делать вывод
+!!! tip vocab "Конструкции"
+    - A implies B / A implies that + предложение
+    - imply + существительное — подразумевать что-то
+    - be implied by + что-то — следовать из, подразумеваться
 
-## Пример
-The positive definiteness of the elasticity tensor implies that the strain energy density is strictly positive for non-zero strains.
+!!! example vocab "Пример"
+    The positive definiteness of the elasticity tensor implies that the strain energy density is strictly positive for non-zero strains.
+    { .sentence }
 
-**Перевод примера:** Положительная определенность тензора упругости влечет за собой строгую положительность плотности энергии деформации при ненулевых деформациях.
+    Положительная определенность тензора упругости влечет за собой строгую положительность плотности энергии деформации при ненулевых деформациях.
+    { .translation }

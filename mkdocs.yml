@@ -12,13 +12,20 @@ theme:
       toggle: {icon: material/weather-night, name: Тёмная тема}
     - scheme: slate
       toggle: {icon: material/weather-sunny, name: Светлая тема}
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
     - navigation.instant.progress
+    - navigation.tabs
     - navigation.sections
+    - navigation.prune
+    - navigation.path
     - navigation.top
     - navigation.indexes
     - search.highlight
+    - search.suggest
     - toc.follow
 plugins:
   - search:
@@ -26,12 +33,24 @@ plugins:
         - ru
         - en
   - roamlinks
+  - awesome-pages
 markdown_extensions:
   - admonition
   - tables
   - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
   - toc:
       permalink: true
+
+watch:
+  - overrides
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
 
 copyright: 'Связаться со мной: <a href="mailto:fedmax012@gmail.com">fedmax012@gmail.com</a>'
 

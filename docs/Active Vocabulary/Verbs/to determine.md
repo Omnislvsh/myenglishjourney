@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to determine
 
-**Перевод:** определять, устанавливать; однозначно задавать
-1. находить точное значение или выяснять факт (вычислением, измерением)
-2. однозначно задавать, обусловливать (be determined by)
-3. формально решить, постановить
+!!! info vocab "Перевод"
+    1. определять, находить (значение, величину, решение)
+    2. однозначно задавать, обусловливать (*be uniquely determined by*)
+    3. устанавливать, выяснять (*determine whether*)
 
-**Конструкции:** determine + существительное; determine whether / how / what + придаточное; determine that + предложение; be determined by + существительное; be uniquely determined; a determining factor — определяющий фактор; determination (сущ.)
+!!! tip vocab "Конструкции"
+    - determine + существительное
+    - determine whether / how / what + придаточное
+    - be (uniquely) determined by + существительное
 
-## Пример
-The values of the coefficients are uniquely determined by the initial conditions.
+!!! example vocab "Пример"
+    The values of the coefficients are uniquely determined by the initial conditions.
+    { .sentence }
 
-**Перевод примера:** Значения коэффициентов однозначно определяются начальными условиями.
+    Значения коэффициентов однозначно определяются начальными условиями.
+    { .translation }

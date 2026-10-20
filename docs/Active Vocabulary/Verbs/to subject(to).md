@@ -8,14 +8,21 @@ publish: "true"
 ---
 # to subject(to)
 
-**Перевод и академические значения:**
-1. Подвергать (силовому воздействию, нагрузке, деформации).
-2. Налагать (ограничения, граничные условия).
-3. Подчинять (систему правилу или уравнению).
+!!! info vocab "Перевод"
+    1. подвергать воздействию, нагрузке, преобразованию (*subject A to B*)
+    2. налагать ограничения, подчинять условию
+    3. в пассиве: подвергаться (*be subjected to a load / a test*)
 
-**Конструкции:** subject A to B / be subjected to + существительное (подвергать/ся); be subject to + существительное (прил.: подчиняться, зависеть от); subject to + условие — при условии; ударение: глагол [səbˈdʒekt], сущ. и прил. [ˈsʌbdʒɪkt]
+    Ударение: глагол [səbˈdʒekt], существительное и прилагательное [ˈsʌbdʒɪkt].
 
-## Пример
-The metal rod was subjected to a constant tensile force until it reached the plastic deformation zone.
+!!! tip vocab "Конструкции"
+    - subject A to B
+    - be subjected to + существительное
+    - subject to + условие — при условии, что (*minimize f subject to g = 0*)
 
-**Перевод примера:** Металлический стержень подвергался действию постоянной растягивающей силы до тех пор, пока не достиг зоны пластической деформации.
+!!! example vocab "Пример"
+    The metal rod was subjected to a constant tensile force until it reached the plastic deformation zone.
+    { .sentence }
+
+    Металлический стержень подвергался действию постоянной растягивающей силы до тех пор, пока не достиг зоны пластической деформации.
+    { .translation }

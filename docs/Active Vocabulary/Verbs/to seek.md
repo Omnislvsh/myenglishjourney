@@ -8,14 +8,21 @@ publish: "true"
 ---
 # to seek
 
-**Перевод и академические значения:**
-1. Искать (решение уравнения: *we seek a solution of the form...*).
-2. Находить (экстремум функции, собственные значения, минимум энергии).
-3. Стремиться определить (поле перемещений, форму деформации).
+!!! info vocab "Перевод"
+    1. искать (решение, функцию заданного вида: *we seek a solution of the form...*)
+    2. стремиться, пытаться (*seek to do*)
+    3. добиваться, запрашивать (разрешения, помощи: *seek advice*)
 
-**Конструкции:** seek + существительное (seek a solution / advice / permission / support); seek to + глагол — стремиться; seek something from somebody; seek out — разыскать; прош. вр. sought; job-seeker
+    Прош. вр. и причастие — sought.
 
-## Пример
-In this problem, we seek a continuous function that satisfies both the differential equation and the boundary conditions.
+!!! tip vocab "Конструкции"
+    - seek + существительное (*seek a solution / a function / advice*)
+    - seek to + глагол — стремиться
+    - seek something from somebody
 
-**Перевод примера:** В этой задаче мы ищем непрерывную функцию, которая удовлетворяет как дифференциальному уравнению, так и граничным условиям.
+!!! example vocab "Пример"
+    In this problem, we seek a continuous function that satisfies both the differential equation and the boundary conditions.
+    { .sentence }
+
+    В этой задаче мы ищем непрерывную функцию, которая удовлетворяет как дифференциальному уравнению, так и граничным условиям.
+    { .translation }

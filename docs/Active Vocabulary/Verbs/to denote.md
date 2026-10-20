@@ -8,11 +8,19 @@ publish: "true"
 ---
 # to denote
 
- **Перевод:** обозначать, означать (в формулах и определениях)
+!!! info vocab "Перевод"
+    1. обозначать символом, буквой (*denote A by B*)
+    2. означать, иметь значением (о слове, символе)
+    3. указывать на, свидетельствовать о (о признаке, величине)
 
-**Конструкции:** let A denote B; A denotes B; denote A by B; be denoted by / as + обозначение; denotation (сущ.) — обозначение, прямое значение
+!!! tip vocab "Конструкции"
+    - let A denote B
+    - denote A by B
+    - A is denoted by / as B
 
-## Пример
-In this paper, the letter ε always denotes a small positive number.
+!!! example vocab "Пример"
+    In this paper, the letter ε always denotes a small positive number.
+    { .sentence }
 
-**Перевод примера:** В этой статье буква ε всегда обозначает малое положительное число.
+    В этой статье буква ε всегда обозначает малое положительное число.
+    { .translation }

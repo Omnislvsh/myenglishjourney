@@ -8,11 +8,19 @@ publish: "true"
 ---
 # to accustom
 
-**Перевод:** приучать (к чему-то); to accustom oneself to — привыкать к; be accustomed to — быть привыкшим к
+!!! info vocab "Перевод"
+    1. приучать к чему-либо (*accustom someone to something*)
+    2. привыкать, осваиваться с чем-либо (*accustom oneself to*)
+    3. приобщать к новому (понятию, обозначению, методу)
 
-**Конструкции:** be/become accustomed to + существительное или -ing; accustom oneself to + что-то; accustom someone to + что-то
+!!! tip vocab "Конструкции"
+    - accustom someone to + существительное или -ing
+    - accustom oneself to + существительное или -ing
+    - be / become accustomed to + существительное или -ing — привыкнуть к
 
-## Пример
-Students of mathematics are often accustomed to solving problems with a clear answer.
+!!! example vocab "Пример"
+    We accustom the reader to this notation by using it consistently throughout the paper.
+    { .sentence }
 
-**Перевод примера:** Студенты-математики часто привыкли решать задачи с чётким ответом.
+    Мы приучаем читателя к этой записи, последовательно используя её на протяжении всей статьи.
+    { .translation }

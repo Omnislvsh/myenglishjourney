@@ -9,15 +9,19 @@ publish: "true"
 ---
 # to involve
 
-**Перевод и академические значения:**
-1. Содержать в себе, включать (переменные, производные, нелинейные члены, параметры).
-2. Требовать, повлечь за собой (вычислительные затраты, операции обращения матриц, итерационные шаги).
-3. Охватывать (физические процессы, эффекты деформирования или взаимодействия).
-4. Вовлекать, делать участником (*involve somebody in something*).
+!!! info vocab "Перевод"
+    1. содержать в себе, включать (переменные, производные, параметры)
+    2. требовать, влечь за собой (вычисления, шаги, затраты)
+    3. затрагивать, быть связанным с (*be involved in*)
 
-**Конструкции:** involve + существительное; involve + -ing; involve somebody in (doing) something; be involved in / with + что-то; involvement (сущ.) — участие, вовлечённость
+!!! tip vocab "Конструкции"
+    - involve + существительное
+    - involve + -ing
+    - be involved in / with + что-то
 
-## Пример
-The governing partial differential equations of continuum mechanics involve nonlinear convective acceleration terms and stress divergence tensors.
+!!! example vocab "Пример"
+    The governing partial differential equations of continuum mechanics involve nonlinear convective acceleration terms and stress divergence tensors.
+    { .sentence }
 
-**Перевод примера:** Определяющие дифференциальные уравнения в частных производных механики сплошных сред содержат нелинейные конвективные члены ускорения и тензоры дивергенции напряжений.
+    Определяющие дифференциальные уравнения в частных производных механики сплошных сред содержат нелинейные конвективные члены ускорения и тензоры дивергенции напряжений.
+    { .translation }

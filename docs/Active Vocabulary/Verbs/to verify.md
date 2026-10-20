@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to verify
 
-**Перевод и академические значения:**
-1. Верифицировать (проверять правильность программного кода/алгоритма аналитическим решением).
-2. Проверять выполнимость (тождества, граничного условия).
-3. Подтверждать справедливость формулы подстановкой.
+!!! info vocab "Перевод"
+    1. проверять правильность, справедливость (*verify that*)
+    2. подтверждать, доказывать (результат, тождество)
+    3. верифицировать, сверять (программу, модель с решением)
 
-**Конструкции:** verify + существительное (the figures / a result / an identity); verify that / whether + предложение; verification (сущ.) — проверка, подтверждение; verifiable — проверяемый; в разговорной речи чаще check
+!!! tip vocab "Конструкции"
+    - verify + существительное
+    - verify that / whether + предложение
+    - verify by + способ (*by direct substitution / calculation*)
 
-## Пример
-We can easily verify this mathematical result by substituting the found solution back into the original equation.
+!!! example vocab "Пример"
+    We can easily verify this mathematical result by substituting the found solution back into the original equation.
+    { .sentence }
 
-**Перевод примера:** Мы можем легко проверить этот математический результат, подставив найденное решение обратно в исходное уравнение.
+    Мы можем легко проверить этот математический результат, подставив найденное решение обратно в исходное уравнение.
+    { .translation }

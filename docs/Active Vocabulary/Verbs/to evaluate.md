@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to evaluate
 
-**Перевод:** оценивать; вычислять
-1. оценивать качество, эффективность или важность чего-то 
-2. вычислять значение выражения, интеграла, функции в точке
-3. анализировать результаты по заданным критериям
+!!! info vocab "Перевод"
+    1. вычислять, находить численное значение (выражения, интеграла, функции в точке)
+    2. оценивать качество, эффективность, важность
+    3. проводить количественную оценку, анализировать результаты по критериям
 
-**Конструкции:** evaluate + существительное; evaluate a function at a point; evaluate the performance / effectiveness of + что-то; be evaluated by / in + кем / где; evaluate in terms of + что-то; evaluation (сущ.) — оценка, вычисление
+!!! tip vocab "Конструкции"
+    - evaluate + существительное
+    - evaluate a function / an expression at a point
+    - evaluate the performance / effectiveness of + существительное
 
-## Пример
-To evaluate the integral, we substitute a new variable and simplify the expression.
+!!! example vocab "Пример"
+    To evaluate the integral, we substitute a new variable and simplify the expression.
+    { .sentence }
 
-**Перевод примера:** Чтобы вычислить интеграл, мы делаем замену переменной и упрощаем выражение.
+    Чтобы вычислить интеграл, мы делаем замену переменной и упрощаем выражение.
+    { .translation }

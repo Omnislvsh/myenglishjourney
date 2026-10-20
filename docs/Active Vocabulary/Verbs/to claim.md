@@ -8,11 +8,19 @@ publish: "true"
 ---
 # to claim
 
-**Перевод:** утверждать (часто без достаточных доказательств); claim (сущ.) — утверждение, требовать
+!!! info vocab "Перевод"
+    1. утверждать, заявлять (часто без достаточных доказательств: *claim that*)
+    2. гласить, утверждать (о теореме, формулировке: *the theorem claims that*)
+    3. претендовать на что-то, требовать по праву (*claim credit / responsibility*)
 
-**Конструкции:** claim that + предложение; claim to be / claim to have done; claim responsibility / credit; make a claim; support a claim; it has been claimed that... (формально, безлично)
+!!! tip vocab "Конструкции"
+    - claim that + предложение
+    - claim to be / claim to have done
+    - make a claim / support a claim — выдвигать / обосновывать утверждение
 
-## Пример
-The author claims that the series converges for all real values of x.
+!!! example vocab "Пример"
+    The author claims that the series converges for all real values of x.
+    { .sentence }
 
-**Перевод примера:** Автор утверждает, что ряд сходится при всех действительных значениях x.
+    Автор утверждает, что ряд сходится при всех действительных значениях x.
+    { .translation }

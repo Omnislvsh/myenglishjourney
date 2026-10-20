@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to manage
 
-**Перевод и академические значения:**
-1. Справляться с, преодолевать (численную жесткость, сингулярности, вычислительную сложность алгоритма).
-2. Управлять, контролировать (динамической системой, граничными воздействиями, траекторией движения).
-3. Суметь, удаваться (*manage to do*: *we manage to prove that...*).
+!!! info vocab "Перевод"
+    1. суметь, удаваться (*manage to do*)
+    2. справляться с, обходиться (*manage with / without*)
+    3. управлять, распоряжаться (ресурсами, процессом)
 
-**Конструкции:** manage to + глагол (суметь; не "manage doing"); manage a business / resources / time; manage without / with / on + что-то; manage it — справиться; compare succeed in doing
+!!! tip vocab "Конструкции"
+    - manage to + глагол (не "manage doing")
+    - manage with / without / on + что-то
+    - manage + существительное — управлять (a project, resources, time)
 
-## Пример
-Adaptive time-integration algorithms successfully manage severe numerical stiffness encountered when modeling the high-frequency vibration of viscoelastic beams.
+!!! example vocab "Пример"
+    Adaptive time-integration algorithms successfully manage severe numerical stiffness encountered when modeling the high-frequency vibration of viscoelastic beams.
+    { .sentence }
 
-**Перевод примера:** Адаптивные алгоритмы интегрирования по времени успешно справляются с сильной численной жесткостью, возникающей при моделировании высокочастотных колебаний вязкоупругих балок.
+    Адаптивные алгоритмы интегрирования по времени успешно справляются с сильной численной жесткостью, возникающей при моделировании высокочастотных колебаний вязкоупругих балок.
+    { .translation }

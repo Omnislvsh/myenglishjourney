@@ -1,55 +1,13 @@
 # Progress
 
-## Vocabulary
+<div class="stats"><div class="stat"><span class="stat__value">30</span><span class="stat__label">слов в словаре</span></div><div class="stat"><span class="stat__value">1 день</span><span class="stat__label">подряд</span></div><div class="stat"><span class="stat__value">30</span><span class="stat__label">новых слов за 30 дней</span></div><div class="stat"><span class="stat__value">2</span><span class="stat__label">активных дней из 30</span></div></div>
 
-| Category | Words |
-| --- | ---: |
-| Verbs | 30 |
-| Nouns | 0 |
-| Adjectives | 0 |
-| **Total** | **30** |
+## Словарь
 
-## Activity
+<div class="bars"><div class="bar"><div class="bar__head"><span>Verbs</span><span>30</span></div><div class="bar__track"><div class="bar__fill" style="width:100%"></div></div></div><div class="bar"><div class="bar__head"><span>Nouns</span><span>0</span></div><div class="bar__track"><div class="bar__fill" style="width:0%"></div></div></div><div class="bar"><div class="bar__head"><span>Adjectives</span><span>0</span></div><div class="bar__track"><div class="bar__fill" style="width:0%"></div></div></div></div>
 
-New vocabulary notes added per day during the last 30 days.
+## Активность
 
-```text
-21 Sep                      0
-22 Sep                      0
-23 Sep                      0
-24 Sep                      0
-25 Sep                      0
-26 Sep                      0
-27 Sep                      0
-28 Sep                      0
-29 Sep                      0
-30 Sep                      0
-01 Oct                      0
-02 Oct                      0
-03 Oct                      0
-04 Oct                      0
-05 Oct                      0
-06 Oct                      0
-07 Oct                      0
-08 Oct ████████████████████ 15
-09 Oct                      0
-10 Oct                      0
-11 Oct                      0
-12 Oct                      0
-13 Oct                      0
-14 Oct                      0
-15 Oct                      0
-16 Oct                      0
-17 Oct                      0
-18 Oct                      0
-19 Oct                      0
-20 Oct ████████████████████ 15
-```
+Новые заметки словаря по дням за последние 30 дней.
 
-## Streak
-
-Current streak: **1 days**
-
-## Overall
-
-Vocabulary notes added: **30**
+<div class="heatmap-wrap"><div class="heatmap-days"><span>Пн</span><span></span><span>Ср</span><span></span><span>Пт</span><span></span><span></span></div><div class="heatmap"><i class="cell cell--l0" title="21.09.2026: 0"></i><i class="cell cell--l0" title="22.09.2026: 0"></i><i class="cell cell--l0" title="23.09.2026: 0"></i><i class="cell cell--l0" title="24.09.2026: 0"></i><i class="cell cell--l0" title="25.09.2026: 0"></i><i class="cell cell--l0" title="26.09.2026: 0"></i><i class="cell cell--l0" title="27.09.2026: 0"></i><i class="cell cell--l0" title="28.09.2026: 0"></i><i class="cell cell--l0" title="29.09.2026: 0"></i><i class="cell cell--l0" title="30.09.2026: 0"></i><i class="cell cell--l0" title="01.10.2026: 0"></i><i class="cell cell--l0" title="02.10.2026: 0"></i><i class="cell cell--l0" title="03.10.2026: 0"></i><i class="cell cell--l0" title="04.10.2026: 0"></i><i class="cell cell--l0" title="05.10.2026: 0"></i><i class="cell cell--l0" title="06.10.2026: 0"></i><i class="cell cell--l0" title="07.10.2026: 0"></i><i class="cell cell--l4" title="08.10.2026: 15"></i><i class="cell cell--l0" title="09.10.2026: 0"></i><i class="cell cell--l0" title="10.10.2026: 0"></i><i class="cell cell--l0" title="11.10.2026: 0"></i><i class="cell cell--l0" title="12.10.2026: 0"></i><i class="cell cell--l0" title="13.10.2026: 0"></i><i class="cell cell--l0" title="14.10.2026: 0"></i><i class="cell cell--l0" title="15.10.2026: 0"></i><i class="cell cell--l0" title="16.10.2026: 0"></i><i class="cell cell--l0" title="17.10.2026: 0"></i><i class="cell cell--l0" title="18.10.2026: 0"></i><i class="cell cell--l0" title="19.10.2026: 0"></i><i class="cell cell--l4" title="20.10.2026: 15"></i></div></div><div class="heatmap-legend"><span>меньше</span><i class="cell cell--l0"></i><i class="cell cell--l1"></i><i class="cell cell--l2"></i><i class="cell cell--l3"></i><i class="cell cell--l4"></i><span>больше</span></div>

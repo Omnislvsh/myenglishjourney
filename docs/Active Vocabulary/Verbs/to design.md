@@ -8,12 +8,19 @@ publish: "true"
 ---
 # to design
 
-**Перевод:**  проектировать, разрабатывать; задумывать
-создавать план, конструкцию или метод (разработать алгоритм, эксперимент), предназначать для определённой цели (be designed to do something)
+!!! info vocab "Перевод"
+    1. проектировать, конструировать (метод, алгоритм, эксперимент)
+    2. планировать, задумывать, разрабатывать план
+    3. предназначать для чего-либо (*be designed to do / for*)
 
-**Конструкции:** design a method / an experiment / an algorithm; be designed to + глагол; be designed for + существительное; be designed as + что-то; well / badly designed; design (сущ.) — замысел, проект; by design — намеренно
+!!! tip vocab "Конструкции"
+    - design a method / an experiment / an algorithm
+    - be designed to + глагол
+    - be designed for + существительное
 
-## Пример
-We designed a simple experiment to test whether the algorithm remains stable.
+!!! example vocab "Пример"
+    We designed a simple experiment to test whether the algorithm remains stable.
+    { .sentence }
 
-**Перевод примера:** Мы разработали простой эксперимент, чтобы проверить, остаётся ли алгоритм устойчивым.
+    Мы разработали простой эксперимент, чтобы проверить, остаётся ли алгоритм устойчивым.
+    { .translation }

@@ -8,11 +8,19 @@ publish: "true"
 ---
 # to contribute
 
-**Перевод:** вносить вклад; способствовать; давать вклад в сумму или значение
+!!! info vocab "Перевод"
+    1. вносить вклад (в науку, в теорию: *contribute to*)
+    2. способствовать, приводить к (*contribute to the growth of the error*)
+    3. давать вклад в сумму или значение величины (о слагаемом, члене выражения)
 
-**Конструкции:** contribute to / towards + существительное (не "contribute for"); contribute something to + что-то; contribute significantly / greatly to; make a contribution to; contribution (сущ.) — вклад
+!!! tip vocab "Конструкции"
+    - contribute to / towards + существительное (не "contribute for")
+    - contribute something to + что-то
+    - make a contribution to + существительное
 
-## Пример
-Our result contributes to a better understanding of the structure of finite groups.
+!!! example vocab "Пример"
+    Our result contributes to a better understanding of the structure of finite groups.
+    { .sentence }
 
-**Перевод примера:** Наш результат способствует лучшему пониманию строения конечных групп.
+    Наш результат способствует лучшему пониманию строения конечных групп.
+    { .translation }

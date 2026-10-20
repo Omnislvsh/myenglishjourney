@@ -6,14 +6,21 @@ tags:
   - слово
 publish: "true"
 ---
-
 # to acquire
 
-**Перевод:** приобретать, получать (знания, навык); принимать (значение, свойство)
+!!! info vocab "Перевод"
+    1. приобретать, овладевать (знанием, навыком)
+    2. получать, собирать (данные, информацию)
+    3. принимать, приобретать (значение, свойство, вид: *the function acquires a new form*)
 
-**Конструкции:** acquire a skill / knowledge / a habit / a reputation; acquire a value / a meaning; be acquired by + кем (о покупке компании); an acquired taste — приобретённый вкус
+!!! tip vocab "Конструкции"
+    - acquire a skill / knowledge / experience
+    - acquire a value / a meaning / a property
+    - acquire data from + источник
 
-## Пример
-During the course, students acquire the basic skills of mathematical writing.
+!!! example vocab "Пример"
+    During the course, students acquire the basic skills of mathematical writing.
+    { .sentence }
 
-**Перевод примера:** В ходе курса студенты приобретают базовые навыки математического письма.
+    В ходе курса студенты приобретают базовые навыки математического письма.
+    { .translation }

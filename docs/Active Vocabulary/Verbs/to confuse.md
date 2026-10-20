@@ -6,13 +6,21 @@ tags:
   - слово
 publish: "true"
 ---
-# to confuse 
+# to confuse
 
-**Перевод:** путать (одно с другим), сбивать с толку
+!!! info vocab "Перевод"
+    1. путать, смешивать одно с другим (*confuse A with B*)
+    2. сбивать с толку, запутывать (читателя, слушателя)
+    3. перепутывать, перемешивать (порядок, обозначения)
 
-**Конструкции:** confuse A with B; confuse the issue — запутывать вопрос; be confused by + что-то; not to be confused with... — не путать с...; confusing — запутанный; confusion — путаница
+!!! tip vocab "Конструкции"
+    - confuse A with B
+    - confuse + кого-то — сбивать с толку
+    - confuse the issue — запутывать вопрос
 
-## Пример
-The definition is confusing because it uses the same letter for two different objects.
+!!! example vocab "Пример"
+    Using the same letter for two different objects may confuse the reader.
+    { .sentence }
 
-**Перевод примера:** Определение запутанное, потому что в нём одна и та же буква обозначает два разных объекта.
+    Использование одной и той же буквы для двух разных объектов может запутать читателя.
+    { .translation }

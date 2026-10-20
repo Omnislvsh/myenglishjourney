@@ -66,3 +66,9 @@ In the 1960s, the Faculty of Psychology, the Faculty of Journalism, the Faculty 
 Университет продолжал нормально работать на протяжении первой зимы блокады Ленинграда, несмотря на лишения, но весной 1942 года был эвакуирован в Саратов. Небольшая группа сотрудников университета, однако, осталась в Ленинграде, чтобы охранять университетскую библиотеку, научные коллекции и оборудование. Вторая мировая война ещё не закончилась, когда университет открыл в 1944 году новый учебный год.
 
 В 1960-е годы были основаны факультет психологии, факультет журналистики, факультет прикладной математики и процессов управления и ряд новых кафедр. В тот же период вблизи Старого Петергофа построили кампус для факультетов естественных наук.
+
+??? question "Вопросы к тексту"
+    1. Who was apponted in 1747 to be the University's first rector?
+    2. Which rectorship is considered to be the period of the highest activity?
+    3. Which faculties were there when the university was re-established
+    4. What basis was St. Petersburg University re-established by Czar Alexander I?(St. Petersburg University was re-established in 1819 on the base of the Pedagogical Institute.)

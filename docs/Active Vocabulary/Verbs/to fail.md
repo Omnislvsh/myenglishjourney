@@ -8,14 +8,19 @@ publish: "true"
 ---
 # to fail
 
-**Перевод и академические значения:**
-1. Не выполняться, нарушаться (об условии, теореме, критерии, гипотезе: *the condition fails to hold*).
-2. Терпеть разрушение, терять несущую способность, отказывать (в механике сплошных сред и конструкций: *the structure fails under load*).
-3. Не достигать результата, не сходиться (о численном методе или алгоритме: *the algorithm fails to converge*).
+!!! info vocab "Перевод"
+    1. не выполняться, нарушаться (об условии, утверждении: *the condition fails to hold*)
+    2. не достигать результата, не сходиться (*the algorithm fails to converge*)
+    3. терпеть неудачу, отказывать, выходить из строя (о методе, конструкции)
 
-**Конструкции:** fail to + глагол (не выполняться, не удаваться: *the condition fails to hold*); fail in an attempt; fail to converge / to comply; fail a test — провалить (экзамен, проверку); if all else fails; failure (сущ.) — отказ, неудача
+!!! tip vocab "Конструкции"
+    - fail to + глагол (*fail to converge / to hold / to satisfy*)
+    - X fails for + случай — не выполняется при... (*the proof fails for n = 2*)
+    - fail a test / a criterion — не пройти проверку, не удовлетворить критерию
 
-## Пример
-The numerical algorithm fails to converge to the exact solution when the spatial mesh step exceeds the critical stability limit.
+!!! example vocab "Пример"
+    The numerical algorithm fails to converge to the exact solution when the spatial mesh step exceeds the critical stability limit.
+    { .sentence }
 
-**Перевод примера:** Численный алгоритм не сходится к точному решению, когда шаг пространственной сетки превышает критический предел устойчивости.
+    Численный алгоритм не сходится к точному решению, когда шаг пространственной сетки превышает критический предел устойчивости.
+    { .translation }
