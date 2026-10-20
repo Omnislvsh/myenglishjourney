@@ -57,7 +57,7 @@ def collect() -> list[dict]:
 
 
 def build_page(words: list[dict]) -> str:
-    payload = json.dumps(words, ensure_ascii=False).replace("<", "\\u003c")
+    payload = json.dumps(words, ensure_ascii=False).replace("<", "\\u003c").replace("&", "\\u0026")
 
     return (
         "# Мини-диктант\n\n"
@@ -65,7 +65,7 @@ def build_page(words: list[dict]) -> str:
         "В раунде по одному вопросу на каждое слово словаря, порядок случайный.\n\n"
         "**Клавиши:** Enter — проверить ответ, Пробел или → — следующий вопрос.\n\n"
         '<div class="quiz" data-quiz data-root="../"></div>\n\n'
-        f'<script type="application/json" id="quiz-data">{payload}</script>\n'
+        f'<div hidden id="quiz-data">{payload}</div>\n'
     )
 
 
