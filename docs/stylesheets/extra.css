@@ -212,6 +212,20 @@
   display: none;
 }
 
+.quiz-result .chips {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.md-typeset .quiz-result a.chip {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+}
+
+.md-typeset .quiz-result a.chip:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
 .quiz-score {
   margin-top: 0.3rem;
   font-size: 2rem;

@@ -64,7 +64,7 @@ def build_page(words: list[dict]) -> str:
         "Дан перевод — введите слово по-английски. Принимается запись с «to» и без. "
         "В раунде по одному вопросу на каждое слово словаря, порядок случайный.\n\n"
         "**Клавиши:** Enter — проверить ответ, Пробел или → — следующий вопрос.\n\n"
-        '<div class="quiz" data-quiz></div>\n\n'
+        '<div class="quiz" data-quiz data-root="../"></div>\n\n'
         f'<script type="application/json" id="quiz-data">{payload}</script>\n'
     )
 

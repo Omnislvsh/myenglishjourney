@@ -203,7 +203,7 @@ function initQuiz() {
       const list = element("div", "chips");
       missed.forEach((word) => {
         const chip = element("a", "chip", word.word);
-        chip.href = word.url;
+        chip.href = (root.dataset.root || "") + word.url;
         list.append(chip);
       });
       card.append(list);
