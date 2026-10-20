@@ -1,3 +1,9 @@
+// Material re-executes this file on every instant navigation; a second run must be a no-op
+// (a top-level `let` would throw "already declared" and break the page init).
+(function () {
+  if (window.__extraJsLoaded) return;
+  window.__extraJsLoaded = true;
+
 function eventElement(event) {
   return event.target instanceof Element ? event.target : document.body;
 }
@@ -244,3 +250,5 @@ if (typeof document$ !== "undefined") {
 } else {
   document.addEventListener("DOMContentLoaded", initQuiz);
 }
+
+})();
