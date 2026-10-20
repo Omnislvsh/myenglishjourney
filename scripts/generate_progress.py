@@ -4,11 +4,21 @@ import subprocess
 from collections import Counter
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 PROGRESS_FILE = DOCS / "Progress.md"
+
+# CI работает в UTC, поэтому "сегодня" считаем в часовом поясе автора.
+TIMEZONE = ZoneInfo("Europe/Moscow")
+COMMIT_MARKER = "@@COMMIT@@"
+
+
+def today() -> date:
+    return datetime.now(TIMEZONE).date()
+
 
 def count_md(directory: Path) -> int:
     """Count markdown files recursively, excluding index.md files."""
@@ -21,19 +31,23 @@ def count_md(directory: Path) -> int:
         if path.is_file()
         and path.name.lower() != "index.md"
     )
-    
+
+
 def git_added_files() -> list[tuple[date, str]]:
     """
-    Return all markdown files that were added to the repository,
-    grouped by the date of the commit that added them.
+    Return markdown files added to the repository, each with the date of
+    the commit that first added it.
     """
 
     result = subprocess.run(
         [
             "git",
+            # Без этого кириллические имена приходят в кавычках с \-escape.
+            "-c",
+            "core.quotepath=false",
             "log",
             "--diff-filter=A",
-            "--format=%ad",
+            f"--format={COMMIT_MARKER}%ad",
             "--date=short",
             "--name-only",
             "--",
@@ -42,48 +56,51 @@ def git_added_files() -> list[tuple[date, str]]:
         cwd=ROOT,
         capture_output=True,
         text=True,
+        encoding="utf-8",
         check=True,
     )
 
-    lines = [line.strip() for line in result.stdout.splitlines()]
-
     current_date: date | None = None
-    additions: list[tuple[date, str]] = []
+    first_added: dict[str, date] = {}
 
-    for line in lines:
+    for raw in result.stdout.splitlines():
+        line = raw.strip()
         if not line:
             continue
 
-        try:
+        if line.startswith(COMMIT_MARKER):
             current_date = datetime.strptime(
-                line,
+                line[len(COMMIT_MARKER):],
                 "%Y-%m-%d",
             ).date()
             continue
-        except ValueError:
-            pass
+
         if (
             current_date
             and line.endswith(".md")
             and not line.endswith("/index.md")
             and line != "docs/Progress.md"
         ):
-            additions.append((current_date, line))
-    return additions
+            # git log идёт от новых коммитов к старым, поэтому перезапись
+            # оставляет самую раннюю дату (файл мог быть удалён и добавлен снова).
+            first_added[line] = current_date
+
+    return [(added, path) for path, added in first_added.items()]
+
+
 def calculate_streak(active_days: set[date]) -> int:
     """Calculate the current consecutive-day streak."""
 
     if not active_days:
         return 0
 
-    today = date.today()
+    current = today()
 
     # If there was no activity today, continue from yesterday.
-    if today not in active_days:
-        today -= timedelta(days=1)
+    if current not in active_days:
+        current -= timedelta(days=1)
 
     streak = 0
-    current = today
 
     while current in active_days:
         streak += 1
@@ -112,12 +129,12 @@ def build_statistics() -> dict:
 
     streak = calculate_streak(active_days)
 
-    today = date.today()
+    now = today()
 
     daily_activity = []
 
     for days_ago in range(29, -1, -1):
-        current = today - timedelta(days=days_ago)
+        current = now - timedelta(days=days_ago)
 
         daily_activity.append(
             {
@@ -132,6 +149,7 @@ def build_statistics() -> dict:
         "streak": streak,
         "total_added": len(additions),
     }
+
 
 def generate_progress(stats: dict) -> str:
     vocabulary = stats["vocabulary"]

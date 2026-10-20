@@ -10,9 +10,9 @@ publish: "true"
 
 **Перевод:** передавать (идею, результат), сообщать; общаться
 
-**Конструкции:** communicate an idea / a result; communicate with someone; communicate something to someone; communication — общение, передача информации
+**Конструкции:** communicate with + кем; communicate something to + кому; communicate an idea / a result / a decision; communicate effectively; communication — общение, передача информации
 
 ## Пример
+To communicate with specialists from other fields, we avoid unnecessary jargon.
 
-To communicate with specialists from other fields, we avoid unnecessary jargon
-
+**Перевод примера:** Чтобы общаться со специалистами из других областей, мы избегаем лишнего жаргона.

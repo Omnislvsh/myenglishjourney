@@ -13,7 +13,9 @@ publish: "true"
 2. однозначно задавать, обусловливать (be determined by)
 3. формально решить, постановить
 
-**Конструкции:** 
-determine + существительное; determine whether / how / what + придаточное; be determined by + существительное; be uniquely determined; determination (сущ.) — определение
+**Конструкции:** determine + существительное; determine whether / how / what + придаточное; determine that + предложение; be determined by + существительное; be uniquely determined; a determining factor — определяющий фактор; determination (сущ.)
+
 ## Пример
 The values of the coefficients are uniquely determined by the initial conditions.
+
+**Перевод примера:** Значения коэффициентов однозначно определяются начальными условиями.

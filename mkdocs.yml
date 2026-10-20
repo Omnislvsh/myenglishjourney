@@ -1,5 +1,6 @@
 site_name: My English Journey
 site_url: https://omnislvsh.github.io/myenglishjourney/
+site_description: Личный сайт для отслеживания прогресса в английском языке — словарь, тексты, статистика
 theme:
   name: material
   custom_dir: overrides
@@ -20,13 +21,18 @@ theme:
     - search.highlight
     - toc.follow
 plugins:
-  - search
+  - search:
+      lang:
+        - ru
+        - en
   - roamlinks
 markdown_extensions:
   - admonition
   - tables
   - attr_list
-  
+  - toc:
+      permalink: true
+
 copyright: 'Связаться со мной: <a href="mailto:fedmax012@gmail.com">fedmax012@gmail.com</a>'
 
 extra:

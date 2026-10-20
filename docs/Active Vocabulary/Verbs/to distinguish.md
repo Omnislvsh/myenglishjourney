@@ -13,8 +13,9 @@ publish: "true"
 2. отличать один объект от другого (distinguish A from B)
 3. выделять особый признак (be distinguished by); distinguished (прил.) — выдающийся
 
-**Конструкции:** distinguish A from B; distinguish between A and B; be distinguished by + признак; a distinguishing feature — отличительная черта
+**Конструкции:** distinguish A from B; distinguish between A and B; be distinguished by + признак; a distinguishing feature — отличительная черта; distinguish oneself — отличиться
 
 ## Пример
 It is important to distinguish between convergence in probability and almost sure convergence.
 
+**Перевод примера:** Важно различать сходимость по вероятности и сходимость почти наверное.

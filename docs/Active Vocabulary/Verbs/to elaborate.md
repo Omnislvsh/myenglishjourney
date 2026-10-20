@@ -13,9 +13,9 @@ publish: "true"
 2. тщательно разрабатывать теорию или метод 
 3. прилагательное elaborate [ɪˈlæbərət] — сложный, детально проработанный (глагол читается [ɪˈlæbəreɪt])
 
-**Конструкции:** elaborate on + существительное; elaborate a theory / a method; an elaborate proof / construction; without elaborating — не вдаваясь в подробности
+**Конструкции:** elaborate on / upon + существительное; elaborate a theory / a method; be elaborated in + раздел; would you care to elaborate? — не могли бы вы пояснить?; an elaborate proof / construction; without elaborating — не вдаваясь в подробности
 
 ## Пример
 The author does not elaborate on why the second assumption is necessary.
 
-
+**Перевод примера:** Автор не объясняет подробно, почему необходимо второе предположение.

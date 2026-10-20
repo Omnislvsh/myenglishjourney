@@ -11,8 +11,9 @@ publish: "true"
 
 **Перевод:** приобретать, получать (знания, навык); принимать (значение, свойство)
 
-**Конструкции:** acquire a skill / knowledge / a habit; acquire a value; acquire a meaning
+**Конструкции:** acquire a skill / knowledge / a habit / a reputation; acquire a value / a meaning; be acquired by + кем (о покупке компании); an acquired taste — приобретённый вкус
 
 ## Пример
 During the course, students acquire the basic skills of mathematical writing.
 
+**Перевод примера:** В ходе курса студенты приобретают базовые навыки математического письма.

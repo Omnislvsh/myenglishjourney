@@ -10,9 +10,9 @@ publish: "true"
 
  **Перевод:** обозначать, означать (в формулах и определениях)
 
-**Конструкции:** let A denote B; denote A by B; A denotes B; denote this by...
+**Конструкции:** let A denote B; A denotes B; denote A by B; be denoted by / as + обозначение; denotation (сущ.) — обозначение, прямое значение
 
 ## Пример
-In this paper, the letter ε always denotes a small positive number
+In this paper, the letter ε always denotes a small positive number.
 
-
+**Перевод примера:** В этой статье буква ε всегда обозначает малое положительное число.

@@ -1,0 +1,10 @@
+# Собранный сайт — его собирает CI
+site/
+
+# Локальное состояние Obsidian
+docs/.obsidian/workspace.json
+docs/.obsidian/.obsidian/
+
+__pycache__/
+*.pyc
+.venv/
